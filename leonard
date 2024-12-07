@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonard's Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background: #555;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Leonard's Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Leonard! I'm a mechanical engineering student at Western Carolina University. I have a passion for designing and creating solutions that make a difference in my community. Outside of school, I enjoy helping my family, traveling, and bowling.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>3D Design with Weight Constraints:</strong> Developed a lightweight 3D model using PrusaSlicer software.</li>
+            <li><strong>Arduino Firefighting Robot:</strong> Programmed a robot to detect walls and extinguish fires.</li>
+            <li><strong>Situational Leadership Presentation:</strong> Explored leadership theories and their practical applications.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:leonard@example.com">leonard@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/leonard" target="_blank">linkedin.com/in/leonard</a></p>
+        <p>GitHub: <a href="https://github.com/leonard" target="_blank">github.com/leonard</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Leonard. All rights reserved.</p>
+    </footer>
+</body>
+</html>
